@@ -1,0 +1,13 @@
+{
+  
+  "compilerOptions": {
+    "rootDir": "lib",
+    "lib": [
+      "es2018"
+    ],
+  },
+  "include": [
+    "index",
+    "lib"
+  ]
+}
