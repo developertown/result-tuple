@@ -80,8 +80,7 @@ const functionReturningAnError = (): ResultTuple => {
 
 ResultTuple accepts up to 3 (optional) type arguments:
 
-* **`P`**: **P**ayload Type.  If your function returns a result value beyond just
-  `StatusOk` or `StatusErr`, define it here.  For example, `ResultTuple<number>` will
+* **`P`**: **P**ayload Type.  If your function returns a result *value* in addition to a result    status of `StatusOk` or `StatusErr`, define it here.  For example, `ResultTuple<number>` will
   define a return type (for happy path) of `[StatusOk, number]`.
 * **`E`**: **E**rror Type.  This defaults to the standard `Error` type, but you can override
   this with other types if you wish. By default, `ResultStatus<number>` might return `[StatusErr, Error]`, but you could override with `ResultStatus<number, string>` to return a simple
