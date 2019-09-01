@@ -5,15 +5,26 @@
   "main": "index.js",
   "author": "Jason Vasquez <jason@developertown.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
   "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*",
+    "@types/jest": "*",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
+    "babel-jest": "*",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": ">=1",
+    "jest": "^24.9.0",
     "lint-staged": ">=8",
     "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
     "typescript": "^3.6.2"
   },
   "husky": {
