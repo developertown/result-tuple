@@ -1,6 +1,6 @@
 {
   "name": "@developertown/result-tuple",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple type support for typed tuple return values in Typescript",
   "author": "Jason Vasquez <jason@developertown.com>",
   "license": "MIT",
@@ -16,7 +16,8 @@
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "clean": "rimraf dist",
     "compile": "tsc",
-    "build": "run-s clean compile"
+    "build": "run-s clean compile",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@babel/core": "*",
