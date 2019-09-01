@@ -5,9 +5,11 @@
     "lib": [
       "es2018"
     ],
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist"
   },
   "include": [
-    "index",
-    "lib"
+    "lib/*"
   ]
 }

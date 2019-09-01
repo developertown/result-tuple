@@ -2,14 +2,21 @@
   "name": "@developertown/result-tuple",
   "version": "0.1.0",
   "description": "Simple type support for typed tuple return values in Typescript",
-  "main": "index.js",
-  "private": false,
   "author": "Jason Vasquez <jason@developertown.com>",
   "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "clean": "rimraf dist",
+    "compile": "tsc",
+    "build": "run-s clean compile"
   },
   "devDependencies": {
     "@babel/core": "*",
@@ -27,8 +34,10 @@
     "jest": "^24.9.0",
     "lint-staged": ">=8",
     "prettier": "^1.18.2",
+    "rimraf": "^3.0.0",
     "ts-node": "^8.3.0",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.2",
+    "yarn-run-all": "^3.1.1"
   },
   "husky": {
     "hooks": {
@@ -42,6 +51,9 @@
     ]
   },
   "jest": {
-    "coverageReporters": ["lcov", "text"]
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
   }
 }
