@@ -12,7 +12,7 @@ the pattern matching possible in a range of functional languages (for example, [
 ## Installation
 
 ```bash
-yarn add -d @developertown/result-tuple
+yarn add -D @developertown/result-tuple
 ```
 
 ## Usage
