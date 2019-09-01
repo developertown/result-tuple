@@ -1,6 +1,6 @@
 {
   "name": "@developertown/result-tuple",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple type support for typed tuple return values in Typescript",
   "author": "Jason Vasquez <jason@developertown.com>",
   "license": "MIT",
