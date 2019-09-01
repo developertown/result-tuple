@@ -1,5 +1,5 @@
 {
-  "name": "result-tuple",
+  "name": "@developertown/result-tuple",
   "version": "0.1.0",
   "description": "Simple type support for typed tuple return values in Typescript",
   "main": "index.js",
