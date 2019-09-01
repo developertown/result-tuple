@@ -1,6 +1,10 @@
 # result-tuple
 
 [![Build Status](https://travis-ci.org/developertown/result-tuple.svg?branch=master)](https://travis-ci.org/developertown/result-tuple)
+[![Coverage Status](https://coveralls.io/repos/github/developertown/result-tuple/badge.svg?branch=master)](https://coveralls.io/github/developertown/result-tuple?branch=master)
+
+[![Dependency Status](https://david-dm.org/developertown/result-tuple.svg)](https://david-dm.org/developertown/result-tuple)
+[![Dev Dependency Status](https://david-dm.org/developertown/result-tuple/dev-status.svg)](https://david-dm.org/developertown/result-tuple)
 
 result-tuple is a small set of types for Typescript that make it easier to handle success and error return conditions from your functions in a type-safe manner.
 
