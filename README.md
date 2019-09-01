@@ -1,5 +1,7 @@
 # result-tuple
 
+[![Build Status](https://travis-ci.org/developertown/result-tuple.svg?branch=master)](https://travis-ci.org/developertown/result-tuple)
+
 result-tuple is a small set of types for Typescript that make it easier to handle success and error return conditions from your functions in a type-safe manner.
 
 ## Installation

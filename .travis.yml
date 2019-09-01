@@ -3,3 +3,6 @@ node_js:
   - node
   - lts/*
 cache: yarn
+script:
+- yarn test
+- yarn coveralls
